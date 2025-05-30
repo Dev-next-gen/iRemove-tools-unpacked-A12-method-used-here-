@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2F9029B5-A39C-4567-978A-B75E33351C3D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iRemove Tools</RootNamespace>
+    <AssemblyName>iRemove Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>iRemove Tools.ico</ApplicationIcon>
+    <StartupObject>ns0.Class0</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto" />
+    <Reference Include="iMobileDevice-net" />
+    <Reference Include="jose-jwt" />
+    <Reference Include="MaterialSkin" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="Renci.SshNet" />
+    <Reference Include="Shaman.CurlSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class8.cs" />
+    <Compile Include="iRemoveTools\Properties\Resources.cs" />
+    <Compile Include="iRemoveTools\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MobileDevice\Properties\Resources.cs" />
+    <Compile Include="ns0\Class0.cs" />
+    <Compile Include="ns10\GClass27.cs" />
+    <Compile Include="ns10\GClass28.cs" />
+    <Compile Include="ns10\GClass29.cs" />
+    <Compile Include="ns10\GClass30.cs" />
+    <Compile Include="ns10\GClass31.cs" />
+    <Compile Include="ns10\GClass32.cs" />
+    <Compile Include="ns10\GClass33.cs" />
+    <Compile Include="ns10\GClass34.cs" />
+    <Compile Include="ns10\GClass35.cs" />
+    <Compile Include="ns10\GStruct5.cs" />
+    <Compile Include="ns11\Delegate5.cs" />
+    <Compile Include="ns11\Delegate6.cs" />
+    <Compile Include="ns11\Delegate7.cs" />
+    <Compile Include="ns11\Delegate8.cs" />
+    <Compile Include="ns11\Delegate9.cs" />
+    <Compile Include="ns12\Class7.cs" />
+    <Compile Include="ns1\Class1.cs" />
+    <Compile Include="ns1\Class2.cs" />
+    <Compile Include="ns1\Class3.cs" />
+    <Compile Include="ns1\Form1.cs" />
+    <Compile Include="ns1\JailForm.cs" />
+    <Compile Include="ns2\Class4.cs" />
+    <Compile Include="ns2\GClass0.cs" />
+    <Compile Include="ns2\GClass1.cs" />
+    <Compile Include="ns2\GClass2.cs" />
+    <Compile Include="ns3\GClass3.cs" />
+    <Compile Include="ns3\GClass4.cs" />
+    <Compile Include="ns3\GClass5.cs" />
+    <Compile Include="ns3\GClass6.cs" />
+    <Compile Include="ns4\GStruct0.cs" />
+    <Compile Include="ns4\Struct5.cs" />
+    <Compile Include="ns4\Struct6.cs" />
+    <Compile Include="ns4\Struct7.cs" />
+    <Compile Include="ns5\GClass10.cs" />
+    <Compile Include="ns5\GClass11.cs" />
+    <Compile Include="ns5\GClass12.cs" />
+    <Compile Include="ns5\GClass13.cs" />
+    <Compile Include="ns5\GClass14.cs" />
+    <Compile Include="ns5\GClass15.cs" />
+    <Compile Include="ns5\GClass16.cs" />
+    <Compile Include="ns5\GClass17.cs" />
+    <Compile Include="ns5\GClass18.cs" />
+    <Compile Include="ns5\GClass19.cs" />
+    <Compile Include="ns5\GClass7.cs" />
+    <Compile Include="ns5\GClass8.cs" />
+    <Compile Include="ns5\GClass9.cs" />
+    <Compile Include="ns6\GDelegate0.cs" />
+    <Compile Include="ns6\GDelegate1.cs" />
+    <Compile Include="ns6\GEventArgs0.cs" />
+    <Compile Include="ns6\GEventArgs1.cs" />
+    <Compile Include="ns6\GEventArgs2.cs" />
+    <Compile Include="ns7\GClass20.cs" />
+    <Compile Include="ns7\GClass21.cs" />
+    <Compile Include="ns7\GEnum0.cs" />
+    <Compile Include="ns7\GEnum1.cs" />
+    <Compile Include="ns7\GEnum2.cs" />
+    <Compile Include="ns7\GEnum3.cs" />
+    <Compile Include="ns7\GEnum4.cs" />
+    <Compile Include="ns8\GClass22.cs" />
+    <Compile Include="ns9\Class5.cs" />
+    <Compile Include="ns9\Class6.cs" />
+    <Compile Include="ns9\Enum6.cs" />
+    <Compile Include="ns9\Enum7.cs" />
+    <Compile Include="ns9\Enum8.cs" />
+    <Compile Include="ns9\GClass23.cs" />
+    <Compile Include="ns9\GClass24.cs" />
+    <Compile Include="ns9\GClass25.cs" />
+    <Compile Include="ns9\GClass26.cs" />
+    <Compile Include="ns9\GEnum5.cs" />
+    <Compile Include="ns9\GEnum6.cs" />
+    <Compile Include="ns9\GStruct1.cs" />
+    <Compile Include="ns9\GStruct2.cs" />
+    <Compile Include="ns9\Struct8.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="iRemoveTools\Properties\Resources.resources" />
+    <EmbeddedResource Include="MobileDevice\Properties\Resources.resources" />
+    <EmbeddedResource Include="ns1\Form1.resources" />
+    <EmbeddedResource Include="ns1\JailForm.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="iRemoveTools\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
